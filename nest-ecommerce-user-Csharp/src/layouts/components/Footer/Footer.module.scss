@@ -1,0 +1,145 @@
+.footer {
+    max-width: 1559px;
+    margin-top: 100px;
+    font-family: var(--font-family-quicksand);
+}
+.footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid var(--primary-color);
+    padding-top: 20px;
+}
+
+.footer-body__item {
+    flex: 0 0 20%;
+    height: auto;
+    left: 0;
+}
+.footer-logo__heading {
+    font-size: 18px;
+    color: #253d4e;
+    padding: 15px 0 27px;
+    font-weight: 500;
+    left: 0;
+}
+.contact-info {
+    font-size: 15px;
+    padding-left: 0;
+    list-style: none;
+    color: #253d4e;
+}
+.footer-logo__info {
+    padding: 10px 0 10px;
+    padding-right: 25px;
+}
+.footer-body_title {
+    font-size: 24px;
+    display: block;
+    padding: 20px 0 20px;
+    color: #253d4e;
+    font-weight: 700;
+}
+.footer-item__link {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #253d4e;
+    padding: 10px 0;
+    transition: all 0.3s linear;
+}
+.footer-item__link:hover {
+    color: #3bb77e;
+    padding-left: 5px;
+}
+.footer-install {
+    font-size: 15px;
+    color: #253d4e;
+}
+.footer-dowload {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 33px;
+    width: 500px;
+}
+.footer-img__dowload {
+    flex: 0 0 10%;
+    display: block;
+    width: 126px;
+    height: 38px;
+}
+.footer-img__pay {
+    margin: 25px 0 25px;
+}
+.footer-last__line {
+    background-color: #29a56c;
+    height: 1px;
+}
+.footer-last {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/*Tân Minh làm*/
+.footer-last__info {
+    flex: 0 0 33.333333%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #7e7e7e;
+    justify-content: space-evenly;
+}
+/*Tân Minh làm*/
+.color-font__lasinfo {
+    color: #29a56c;
+}
+.footer-hotline {
+    flex: 0 0 50%;
+    padding-left: 0;
+}
+.footer-hotline__02 {
+    flex: 0 0 50%;
+}
+.hotline {
+    height: 30px;
+}
+.footer-last__infoicon {
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+.footer-last__infoicon strong {
+    font-size: 25px;
+    color: #29a56c;
+    text-align: center;
+}
+.footer-last__infoicon span {
+    text-align: center;
+    display: block;
+    padding-right: 21px;
+}
+
+.mobile-social-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.mobile-icon {
+    flex: 0 0 18%;
+    height: 32px;
+    width: 34px;
+    background-color: #29a56c;
+    border-radius: 50%;
+    display: block;
+    margin-left: 40%;
+}
+.social-info {
+    padding-right: 50px;
+}
+.last-title {
+    font-size: 15px;
+    color: #253d4e;
+}

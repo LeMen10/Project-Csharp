@@ -1,0 +1,86 @@
+.title-page h3{
+    font-size: 30px;
+}
+.checkbox-select-all-option {
+    width: 140px;
+    margin: 0 16px;
+}
+.action-container{
+    padding: 20px 12px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.actions-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.quantity-product {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    padding: 2px 0;
+    margin: 0 6px;
+}
+.change-quantity-product {
+    padding: 4px 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.change-quantity-product:hover {
+    cursor: pointer;
+}
+.price-total-order {
+    margin-left: 6px;
+}
+
+.buy-button{
+    margin-top: 16px;
+}
+
+.buy-button, .total-payment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-delete{
+    margin-right: 16px;
+}
+.btn-edit:hover, .btn-delete:hover{
+    cursor: pointer;
+}
+.cate-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.form-group-img .form-control-input{
+    padding: 0;
+}
+.form-control-input{
+    padding: 6px 0;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+}
+
+.table-container{
+    padding: 20px 12px;
+    background-color: #fff;
+    border-radius: 2px;
+}

@@ -1,0 +1,77 @@
+.icon-cart,
+.icon-rouded,
+.icon-processing,
+.icon-tick {
+    padding: 10px 14px;
+    border-radius: 50%;
+    background-color: #ffecd5;
+    margin-right: 20px;
+}
+.icon-rouded {
+    background-color: #d6ebfe;
+}
+.icon-processing {
+    background-color: #bdfcf3;
+}
+.icon-tick {
+    background-color: #c4fbe7;
+}
+.statistical-wrap {
+    color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 26px;
+}
+.today {
+    background-color: #00968b;
+}
+.yesterday {
+    background-color: #ff8c2c;
+}
+.week {
+    background-color: #0084f6;
+}
+.month {
+    background-color: #0093b3;
+}
+.last-month {
+    background-color: #00986d;
+}
+.order-admin,
+.icon-bank-cart,
+.icon-cart-sta,
+.icon-stack {
+    text-align: center;
+}
+.order-admin {
+    padding-top: 16px;
+}
+.total-order-wrap {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 26px;
+}
+
+.total-order-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+.total {
+    font-size: 18px;
+    font-weight: 700;
+}
+.order-statistics{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+}
+.order-statistics-title{
+    margin-bottom: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+.input-search-wrap {
+    display: flex;
+    align-items: center;
+    border: 2px solid #8acaab;
+    min-height: 50px;
+    background-color: #fff;
+    border-radius: 26px;
+}
+.input-search {
+    width: 89%;
+    border: none;
+    border-radius: 36px;
+    padding-left: 20px;
+    font-family: var(--font-family-quicksand);
+    font-weight: 500;
+    font-size: 15px;
+}
+.icon-search-header {
+    width: 11%;
+    text-align: center;
+    background-color: #5ece98;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 22px;
+    margin-right: 2px;
+    border: none;
+    transition: all 0.2s linear;
+}

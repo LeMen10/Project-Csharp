@@ -1,0 +1,115 @@
+.section-title {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-title h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 30px;
+    font-family: var(--font-family-quicksand);
+}
+.home-slide {
+    margin: 30px 0;
+}
+.home-slide-cover {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.home-slide-cover input {
+    display: none;
+}
+.slide {
+    width: 100%;
+    transition: opacity 500ms ease 0s;
+}
+.slide img {
+    width: 100%;
+    border-radius: 30px;
+}
+.slide-last {
+    display: none;
+}
+.slide {
+    opacity: 2;
+}
+.navigation-auto {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.navigation-auto div {
+    border: 1px solid #2a4a58;
+    /* background-color: #d8d8d8; */
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navigation-auto div:not(:last-child) {
+    margin-right: 8px;
+}
+.navigaiton-manual {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.manual-btn {
+    /* border: 1px solid #2a4a58; */
+    padding: 0 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 12px;
+}
+#radio1:checked ~ .slide-first {
+    margin-right: 0;
+}
+#radio1:checked ~ .slide-last {
+    opacity: 0.6;
+}
+#radio2:checked ~ .slide-first {
+    margin-left: -100%;
+    opacity: 0.6;
+}
+#radio2:checked ~ .slide-last {
+    display: block;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2,
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.typical-products-wrap {
+    font-family: var(--font-family-quicksand);
+}
+.typical-products-title {
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    color: var(--text-color);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+.typical-products-title::before {
+    position: absolute;
+    content: '';
+    top: calc(100% - 2px);
+    border-radius: 4px;
+    width: 106px;
+    height: 3px;
+    background-color: rgb(176, 228, 203);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}

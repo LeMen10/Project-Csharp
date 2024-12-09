@@ -1,0 +1,42 @@
+.title-page h3 {
+    font-size: 30px;
+}
+.checkbox-select-all-option {
+    width: 140px;
+    margin: 0 16px;
+}
+.quantity-product {
+    width: 20%;
+    text-align: center;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    padding: 2px 0;
+    margin: 0 6px;
+}
+.change-quantity-product {
+    padding: 4px 10px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.change-quantity-product:hover {
+    cursor: pointer;
+}
+.price-total-order {
+    margin-left: 6px;
+    color: rgba(0, 186, 131, 1);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.buy-button {
+    margin-top: 16px;
+}
+
+.buy-button,
+.total-payment {
+    display: flex;
+    justify-content: flex-end;
+}
